@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1e298221-c1f5-4fa8-80c9-77e5618254df")
+	(paper "A4")
+	(title_block
+		(title "Nif-T")
+		(date "2025-11-25")
+		(company "Logan Peterson")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
