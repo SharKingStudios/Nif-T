@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "imported_components")(type "KiCad")(uri "${KIPRJMOD}/libs/imported_components.kicad_sym")(options "")(descr ""))
+  (lib (name "new_imported_components")(type "KiCad")(uri "${KIPRJMOD}/libs/new_imported_components.kicad_sym")(options "")(descr ""))
+)
