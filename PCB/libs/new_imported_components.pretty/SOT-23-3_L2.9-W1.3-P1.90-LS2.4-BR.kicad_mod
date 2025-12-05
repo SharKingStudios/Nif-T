@@ -154,13 +154,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/imported_components.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 		(offset
-			(xyz -861.57 843.28 -0)
+			(xyz 0 0 -0.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -0 -0 180)
 		)
 	)
 )

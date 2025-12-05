@@ -187,7 +187,7 @@
 		(uuid "9f5cdb9b-3457-473e-b9e9-55177d62c99f")
 	)
 	(embedded_fonts no)
-	(model "C${KIPRJMOD}/libs/imported_components.3dshapes/DC-IN-TH_DC-005-A200.wrl"
+	(model "${KIPRJMOD}/libs/imported_components.3dshapes/DC-IN-TH_DC-005-A200.step"
 		(offset
 			(xyz -3.5 2.18 0)
 		)

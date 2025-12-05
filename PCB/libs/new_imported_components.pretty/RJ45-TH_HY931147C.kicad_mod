@@ -381,13 +381,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/imported_components.3dshapes/RJ45-TH_HY931147C.wrl"
 		(offset
-			(xyz -2.5 -0 0)
+			(xyz -2.5 -0 7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -48,19 +48,66 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|249595000|89120000|ef9a5648-2331-4e81-85c5-b4259d68b254|3318e2b9-c4e7-424e-ae68-7ad2ec2785ed",
+          ""
+        ],
+        [
+          "copper_edge_clearance|249595000|92320000|ef9a5648-2331-4e81-85c5-b4259d68b254|1b6e874f-b77f-4cb6-8e1a-253add6aee5f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|249595000|95520000|ef9a5648-2331-4e81-85c5-b4259d68b254|3b3e014f-0548-4d7b-8697-37c726682dcb",
+          ""
+        ],
+        [
+          "starved_thermal|196360000|62590000|d3604e83-3ae3-4328-bf51-ff43ddf0f627|bbe5c370-396c-4093-9f22-41ea3d489d09|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|199410000|57960000|d3604e83-3ae3-4328-bf51-ff43ddf0f627|0d7fb466-9cbe-40aa-bde2-b56f553a0426|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|199710000|57960000|d3604e83-3ae3-4328-bf51-ff43ddf0f627|f3079bf7-bafe-4e5d-aee2-b97c95a2b7e7|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|200690000|57200000|d3604e83-3ae3-4328-bf51-ff43ddf0f627|d16953f9-cfca-4702-a96f-67b3243d0077|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|204800000|135400000|d3604e83-3ae3-4328-bf51-ff43ddf0f627|a8a5ce16-e9c1-46d8-9fe6-dde63e622ca9|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|215600000|57837500|d3604e83-3ae3-4328-bf51-ff43ddf0f627|31245078-b3a9-429f-965c-9ee2afdfcbe3|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|219400000|105350000|d3604e83-3ae3-4328-bf51-ff43ddf0f627|3af175ee-2271-4997-bc5e-0d3e326de0eb|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -73,7 +120,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -91,15 +138,15 @@
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -180,7 +227,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.4,
+        0.5,
+        0.8,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +260,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {

@@ -253,7 +253,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/imported_components.3dshapes/CONN-TH_P5.00_KF301-5.0-2P.wrl"
 		(offset
-			(xyz 0.3 0.2 5)
+			(xyz 0 0.2 5)
 		)
 		(scale
 			(xyz 1 1 1)

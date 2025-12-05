@@ -227,13 +227,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/new_imported_components.3dshapes/SOD-123_L2.8-W1.8-LS3.7-RD.wrl"
 		(offset
-			(xyz 0 -0 -0)
+			(xyz 0 -0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
