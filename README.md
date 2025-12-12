@@ -15,7 +15,8 @@
 ![Top PCB Render](/Renders/topPCBRender.png)
 ![Bottom PCB Render](/Renders/bottomPCBRender.png)
 ![Routing Glamour Shot](/Renders/PCBRender.png)
-![Schematic Picture](/Renders/schematic.png)
+![Schematic Picture](/Renders/schematicRoot.png)
+![Schematic Picture](/Renders/schematicPowerAndIO.png)
 
 ---
 
