@@ -1,0 +1,57 @@
+Value,Qty,Price Ea.,Price total (MOQ),LCSC link
+RVT1H470M0607 (47uF 50V electrolytic),1,0.0292,0.58,https://www.lcsc.com/product-detail/C72523.html
+RVT1E331M0810 (330uF 25V electrolytic),1,0.0540,0.54,https://www.lcsc.com/product-detail/C335985.html
+1N4148W-E3-08 (SOD-123 fast diode),8,0.0308,0.15,https://www.lcsc.com/product-detail/C241939.html
+CYA1040-33UH (33uH inductor),1,0.3195,1.60,https://www.lcsc.com/product-detail/C6364680.html
+DC-005-A200 (Barrel jack),1,0.1108,0.55,https://www.lcsc.com/product-detail/C720557.html
+0.22uF 0805,3,0.02,0.55,https://www.lcsc.com/product-detail/C5378.html
+Power LED 0805 (D3),1,0.02,0.66,https://www.lcsc.com/product-detail/C7371915.html
+12.1k ohm 0805 (R1),1,0.03,0.73,https://www.lcsc.com/product-detail/C865169.html
+22 ohm 0805 (R2),1,0.002,0.20,https://www.lcsc.com/product-detail/C17561.html
+49.9 ohm 0805,4,0.002,0.18,https://www.lcsc.com/product-detail/C2933455.html
+5.1k ohm 0805,2,0.002,0.19,https://www.lcsc.com/product-detail/C27834.html
+10k ohm 0805,6,0.002,0.19,https://www.lcsc.com/product-detail/C84376.html
+200 ohm 0805,1,0.002,0.14,https://www.lcsc.com/product-detail/C2933534.html
+Crystal Oscillator X322525MOB4SI,1,0.07,0.68,https://www.lcsc.com/product-detail/C9006.html
+AMS1117-3.3,1,0.16,0.83,https://www.lcsc.com/product-detail/C6186.html
+TI LM2596SX-5.0/NOPB,1,0.86,0.86,https://www.lcsc.com/product-detail/C10002.html
+WCH CH340C,1,0.54,0.54,https://www.lcsc.com/product-detail/C84681.html
+MICROCHIP LAN8720A-CP-TR,1,0.73,0.73,https://www.lcsc.com/product-detail/C45223.html
+ESPRESSIF ESP32-WROOM-32E-N8,1,4.11,4.11,https://www.lcsc.com/product-detail/C701342.html
+USB-C Port,1,0.05,0.49,https://www.lcsc.com/product-detail/C2927038.html
+Ethernet Port (With Magnetics),1,2.38,2.38,https://www.lcsc.com/product-detail/C91754.html
+,,,,
+FST-1230 (Buzzer),1,0.46,0.46,https://www.lcsc.com/product-detail/C391037.html
+SS54 (Schottky diode),3,0.05,0.43,https://www.lcsc.com/product-detail/C22452.html
+SK6812 RGB LED (5050),10,0.09,0.86,https://www.lcsc.com/product-detail/C5378720.html
+CL21B104KBCNNNC (0.1uF 50V X7R 0805),7,0.006,0.30,https://www.lcsc.com/product-detail/C1711.html
+CL21B105KBFNNNE (1uF 50V X7R 0805),3,0.009,0.18,https://www.lcsc.com/product-detail/C28323.html
+CL21A106KAYNNNE (10uF 25V X5R 0805),5,0.01,0.20,https://www.lcsc.com/product-detail/C15850.html
+BLM21PG221SN1D (ferrite bead),1,0.02,0.82,https://www.lcsc.com/product-detail/C85840.html
+S8050 NPN transistor,8,0.0057,0.57,https://www.lcsc.com/product-detail/C916390.html
+OMRON G5NB-1A-E-DC5V,8,0.43,3.37,https://www.lcsc.com/product-detail/C48746.html
+KF301-5.0-2P (5.00mm 2P terminal block),1,0.09,0.44,https://www.lcsc.com/product-detail/C474881.html
+ZHOURI PZ2.54-2*20-SMT,2,0.24,1.2,https://www.lcsc.com/product-detail/C5378173.html
+DORABO DB128B-5.08-2*3P-BK-S,5,0.65,3.20,https://www.lcsc.com/product-detail/C500038.html
+SDAPO DP1435-5V,1,4.94,4.94,https://www.lcsc.com/product-detail/C5380097.html
+,,,,
+XUNPU DSIC-05-LS-GER,2,0.32,0.63,https://www.lcsc.com/product-detail/C7471367.html
+XUNPU TS-1088-AR02016,3,0.05,0.42,https://www.lcsc.com/product-detail/C720477.html
+MST-12D18G4 SPDT Slide Switch,1,0.08,0.36,https://www.lcsc.com/product-detail/C49023767.html
+,,,,
+SK6812MINI-HS (extra for dif proj),80,0.08,6.18,https://www.lcsc.com/product-detail/C2922787.html
+,,,,
+LCSC Merchandise Subtotal,,,,41.96
+LCSC Shipping Estimate,,,,15.12
+LCSC Taxes Buffer,,,,5.00
+LCSC Total,,,,62.08
+,,,,
+JLCPCB Fabrication,5,,,2.00
+JLCPCB Stencil,1,,,7.00
+JLCPCB Shipping Estimate,,,,16.50
+JLCPCB Taxes Buffer,,,,3.00
+JLCPCB Total,,,,28.50
+,,,,
+Grand Total,,,,90.58
+,,,,
+Reimbursement amount,,,,6.18

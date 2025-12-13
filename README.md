@@ -4,7 +4,7 @@
 
 # Nif-T - An all in one smart home automation board
 
-### A No-Nonsense Ethernet + PoE Smart-Home Controller with Opinions
+### A No-Nonsense Ethernet + PoE Smart-Home Controller
 
 ---
 
