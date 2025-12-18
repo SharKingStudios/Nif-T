@@ -18,6 +18,8 @@
 ![Schematic Picture](/Renders/schematicRoot.png)
 ![Schematic Picture](/Renders/schematicPowerAndIO.png)
 
+> *The middle ground planes are hidden in the PCB Routing render*
+
 ---
 
 ## BOM  

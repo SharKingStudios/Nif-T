@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -69,6 +69,10 @@
         ],
         [
           "copper_edge_clearance|249595000|95520000|ef9a5648-2331-4e81-85c5-b4259d68b254|3b3e014f-0548-4d7b-8697-37c726682dcb",
+          ""
+        ],
+        [
+          "starved_thermal|192960000|62590000|d3604e83-3ae3-4328-bf51-ff43ddf0f627|fd621e4e-4563-460b-8520-0e5a849e8cc9|F.Cu",
           ""
         ],
         [
@@ -516,7 +520,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
