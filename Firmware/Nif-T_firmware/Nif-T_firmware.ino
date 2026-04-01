@@ -288,24 +288,52 @@ static void mqttCallback(char* topic, byte* payload, unsigned int length) {
 }
 
 // -------------------- ETHERNET EVENTS --------------------
+#if ESP_ARDUINO_VERSION_MAJOR >= 3
+static void WiFiEvent(arduino_event_id_t event, arduino_event_info_t info) {
+  switch (event) {
+    case ARDUINO_EVENT_ETH_START:
+      ETH.setHostname(deviceName.c_str());
+      break;
+
+    case ARDUINO_EVENT_ETH_GOT_IP:
+      ethConnected = true;
+      Serial.print("ETH IP: ");
+      Serial.println(ETH.localIP());
+      break;
+
+    case ARDUINO_EVENT_ETH_DISCONNECTED:
+    case ARDUINO_EVENT_ETH_STOP:
+      ethConnected = false;
+      break;
+
+    default:
+      break;
+  }
+}
+#else
 static void WiFiEvent(WiFiEvent_t event) {
   switch (event) {
     case SYSTEM_EVENT_ETH_START:
       ETH.setHostname(deviceName.c_str());
       break;
+
     case SYSTEM_EVENT_ETH_GOT_IP:
       ethConnected = true;
       Serial.print("ETH IP: ");
       Serial.println(ETH.localIP());
       break;
+
     case SYSTEM_EVENT_ETH_DISCONNECTED:
     case SYSTEM_EVENT_ETH_STOP:
       ethConnected = false;
       break;
+
     default:
       break;
   }
 }
+#endif
+
 
 // -------------------- MQTT CONNECT --------------------
 static void mqttConnect() {
@@ -383,14 +411,17 @@ void setup() {
   WiFi.onEvent(WiFiEvent);
 
   // IMPORTANT: clock mode uses GPIO0 OUT 50MHz as you specified
+  // LAN8720A, PHY addr 0, reset/power pin on GPIO5
   ETH.begin(
-    PIN_ETH_ADDR,
-    PIN_ETH_POWER_OR_RESET,
-    PIN_ETH_MDC,
-    PIN_ETH_MDIO,
-    ETH_PHY_LAN8720,
-    ETH_CLOCK_GPIO0_IN
+    PIN_ETH_ADDR,            // phy_addr
+    PIN_ETH_POWER_OR_RESET,  // power / reset pin (or -1 if not used)
+    PIN_ETH_MDC,             // mdc
+    PIN_ETH_MDIO,            // mdio
+    ETH_PHY_LAN8720,         // type
+    ETH_CLOCK_GPIO0_IN       // clock mode (GPIO0 inputs 50MHz)
   );
+
+
 
   // MQTT
   mqtt.setServer(MQTT_HOST, MQTT_PORT);
